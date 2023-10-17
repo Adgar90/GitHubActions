@@ -31,7 +31,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Execute the app
-        run: python3 api.calculadora.py
+        run: python3 api_calculadora.py
         
       # Run tests with curl command and redirect with grep
       - name: Test suma function
