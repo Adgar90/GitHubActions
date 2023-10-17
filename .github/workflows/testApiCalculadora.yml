@@ -35,10 +35,10 @@ jobs:
         
       # Run tests with curl command and redirect with grep
       - name: Test suma function
-        run: curl http://127.0.0.1:5000/suma/1/5 | grep '{"resultat":6"}'
+        run: curl http://127.0.0.1:5000/suma/1/5 | grep '{"resultat":6}'
       - name: Test resta function
-        run: curl http://127.0.0.1:5000/resta/9/3 | grep '{"resultat":6"}'
+        run: curl http://127.0.0.1:5000/resta/9/3 | grep '{"resultat":6}'
       - name: Test multiplica function
-        run: curl http://127.0.0.1:5000/multiplica/3/2 | grep '{"resultat":6"}'
+        run: curl http://127.0.0.1:5000/multiplica/3/2 | grep '{"resultat":6}'
       - name: Test divideix function
-        run: curl http://127.0.0.1:5000/divideix/12/2 | grep '{"resultat":6"}'
+        run: curl http://127.0.0.1:5000/divideix/12/2 | grep '{"resultat":6}'
